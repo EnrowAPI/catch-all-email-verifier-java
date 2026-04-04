@@ -30,7 +30,7 @@ public final class CatchAllVerifier {
      * Start a single catch-all email verification.
      *
      * <p>Required key in {@code params}: {@code "email"}.
-     * Optional keys: {@code "settings"}.</p>
+     * Optional keys: {@code "custom"}, {@code "settings"}.</p>
      *
      * @param apiKey Enrow API key
      * @param params request body fields
@@ -54,9 +54,8 @@ public final class CatchAllVerifier {
     /**
      * Start a bulk catch-all email verification (up to 5,000 per batch).
      *
-     * <p>Required key in {@code params}: {@code "verifications"} (a list of maps, each
-     * containing at least {@code "email"}).
-     * Optional keys: {@code "settings"}.</p>
+     * <p>Required key in {@code params}: {@code "emails"} (a list of email address strings).
+     * Optional keys: {@code "custom"}, {@code "settings"}.</p>
      *
      * @param apiKey Enrow API key
      * @param params request body fields
