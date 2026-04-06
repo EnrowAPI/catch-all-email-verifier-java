@@ -2,6 +2,8 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.enrow/catch-all-email-verifier.svg)](https://central.sonatype.com/artifact/io.enrow/catch-all-email-verifier)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/EnrowAPI/catch-all-email-verifier-java)](https://github.com/EnrowAPI/catch-all-email-verifier-java)
+[![Last commit](https://img.shields.io/github/last-commit/EnrowAPI/catch-all-email-verifier-java)](https://github.com/EnrowAPI/catch-all-email-verifier-java/commits)
 
 Verify emails on catch-all domains with deterministic verification. Most verifiers mark catch-all emails as "risky" or "unknown" -- this one tells you if the specific mailbox actually exists.
 
@@ -93,7 +95,7 @@ Paid plans start at **$17/mo** for 1,000 credits up to **$497/mo** for 100,000 c
 ## Documentation
 
 - [Enrow API documentation](https://docs.enrow.io)
-- [Full Enrow SDK](https://github.com/enrow/enrow-java) -- includes email finder, phone finder, reverse email lookup, and more
+- [Full Enrow SDK](https://github.com/EnrowAPI/enrow-java) -- includes email finder, phone finder, reverse email lookup, and more
 
 ## License
 
